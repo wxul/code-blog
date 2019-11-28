@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://wxul.github.io/
-root: /
+url: https://wxul.github.io/blog
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -78,5 +78,5 @@ theme: hexo-theme-next-5.1.1
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:wxul/wxul.github.io.git
-  branch: master
+  repo: git@github.com:wxul/blog.git
+  branch: gh-pages
